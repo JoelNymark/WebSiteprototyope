@@ -122,11 +122,11 @@ transform: translate(-50%,-50%);
 
 
  /* makes all cards that is not hoverd grayscale */
- /* .card-group:hover .big-card:not(:hover) {
+ .card-group:hover .big-card:not(:hover) {
    width: 28vmin;
    filter: grayscale(100%);
    
- } */
+ }
 
 
 
