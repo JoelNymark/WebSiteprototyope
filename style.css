@@ -18,7 +18,7 @@ body{
 
 .card{
     background-color: rgba(255, 255, 255, 0.05);
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(1px);
     position: absolute;
     transition: transform 800ms cubic-bezier(.57,-0.57,.54,1.48);
 }
