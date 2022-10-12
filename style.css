@@ -113,7 +113,12 @@ transform: translate(-50%,-50%);
  /* makes all cards that is not hoverd grayscale */
  .card-group:hover .big-card:not(:hover) {
    width: 28vmin;
-   filter: grayscale(100%);
+   filter: grayscale(100%) blur(1px);
+   
+ }
+ /* makes all cards that is not hoverd grayscale */
+ .card-group:hover .little-card:not(:hover) {
+   filter: grayscale(100%) blur(1px);
    
  }
  
